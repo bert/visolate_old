@@ -376,7 +376,7 @@ public class Visolate extends JPanel implements SimulatorUI {
 			myInitialXPanel.add(new JLabel("X"), BorderLayout.WEST);
 			final JTextField field = new JTextField(NumberFormat.getInstance().format(0.0));
 			myInitialXPanel.add(field, BorderLayout.CENTER);
-			myInitialYPanel.setToolTipText("Left side is at this coordinate (mm or inch)");
+			myInitialXPanel.setToolTipText("Left side is at this coordinate (mm or inch)");
 			myInitialXPanel.addPropertyChangeListener("enabled", new PropertyChangeListener() {
 				
 				@Override
